@@ -149,4 +149,15 @@ Here are the ones I'm talking about:
 
 ```
 
-Créer et attendre un peu
+Créer et attendre
+* J'ai eu pas mal de soucis d'indentation etc.
+* Bizarre c'est très très long du coup CANCEL
+
+Ensuite claude code à modifié claude.yml
+- Permissions : read -> write pour contents, pull-requests, issues
+- Dev server : dev:daemon (inexistant) remplacé par npm run dev & en background avec log dans /tmp/dev-server.log                                                     - MCP config : écrit dans un fichier temporaire, passé via claude_args: '--mcp-config /tmp/mcp-config.json'
+- custom_instructions supprimé -- Claude lit le CLAUDE.md du repo qui contient déjà le contexte
+- Le custom_instructions n'est pas perdu -- les infos sur le serveur et sqlite sont maintenant dans le CLAUDE.md du projet que Claude lit automatiquement. Tu peux y
+  ajouter les détails si besoin.
+
+Je repousse sur GitHub et j'ouvre une autre issue
