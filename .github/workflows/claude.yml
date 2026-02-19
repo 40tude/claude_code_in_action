@@ -60,18 +60,18 @@ jobs:
             launch a browser and interact with the app.
 
           mcp_config: |
-          {
-            "mcpServers": {
-              "playwright": {
-                "command": "npx",
-                "args": [
-                  "@playwright/mcp@latest",
-                  "--allowed-origins",
-                  "localhost:3000;cdn.tailwindcss.com;esm.sh"
-                ]
+            {
+              "mcpServers": {
+                "playwright": {
+                  "command": "npx",
+                  "args": [
+                    "@playwright/mcp@latest",
+                    "--allowed-origins",
+                    "localhost:3000;cdn.tailwindcss.com;esm.sh"
+                  ]
+                }
               }
             }
-          }
 
 
 
