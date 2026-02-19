@@ -7,7 +7,7 @@ C'est très lent
 
 
 
-## MCP playright
+## MCP playwright
 Sous windows ce qui est précisé ne fonctionne pas
 
 ```powershell
@@ -44,7 +44,7 @@ A la fin un PR est créé et il faut pas oublier le MERGER le PR
 
 C'est ce PR qui fait qu'on peut
 1. mentionner `@claude` sur ce repo dans un prochain PR ou issue
-2. demarrer claude sur chaque PR => poster un rapport sur l'impact du PR (pas tout compris encore)
+2. démarrer claude sur chaque PR => poster un rapport sur l'impact du PR (pas tout compris encore)
 
 
 <div align="center">
@@ -61,8 +61,8 @@ Ensuite on voit 2 action config files dans `.github/workflows/claude.yml`
 * 1 pour le @mention
 * l'autre la la revue des PR
 
-On veut customiser la mention fonctionalité
-On veut qu'il run le projet et utilise Playwright MCP Server pour accèder l'app dans le browser le tout dans une action GitHub
+On veut customiser la mention fonctionnalité
+On veut qu'il run le projet et utilise Playwright MCP Server pour accéder l'app dans le browser le tout dans une action GitHub
 
 Dans job:claude:steps:
 Ajouter
@@ -145,7 +145,7 @@ Here are the ones I'm talking about:
 
 <img width="379" height="122" alt="Image" src="https://github.com/user-attachments/assets/526860d1-c809-41e1-95d2-a5d074a09150" />
 
-@claude can you take a look at this? Just test them out and verify that clicking them toggles betwene the code and the previous tabs
+@claude can you take a look at this? Just test them out and verify that clicking them toggles between the code and the previous tabs
 
 ```
 
