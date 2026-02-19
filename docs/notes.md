@@ -80,7 +80,7 @@ Ajouter
           npm run dev:daemon
 ```
 
-Ensuite dans la section `Run Claude Code` ajouter
+Ensuite dans la section `Run Claude Code` ajouter. **ATTENTION À L'INDENTATION**
 
 ```yml
 
@@ -92,7 +92,7 @@ custom_instructions: |
   set of tools to launch a browser and interact with the app.
 ```
 
-Juste en dessous on ajoute la config MCP
+Juste en dessous on ajoute la config MCP. **ATTENTION À L'INDENTATION**
 
 ```yml
 mcp_config: |
@@ -124,3 +124,29 @@ Best practices:
 * Be explicit about tool permissions when using MCP servers
 * Test your workflows with simple tasks before complex ones
 * Consider your project's specific needs when configuring additional steps
+
+Ensuite
+```powershell
+
+git add .
+git commit -m "update workflow action"
+git push origin main
+```
+
+On test ensuite en donnant une tache à claude
+Prendre un screen shot des 2 boutons
+On va sur le repo du projet sur GitHub
+Coller l'image
+Ajouter un text sans oublier de mentioner @claude
+
+```text
+Sometimes it feels like the buttons are not working as expected
+Here are the ones I'm talking about:
+
+<img width="379" height="122" alt="Image" src="https://github.com/user-attachments/assets/526860d1-c809-41e1-95d2-a5d074a09150" />
+
+@claude can you take a look at this? Just test them out and verify that clicking them toggles betwene the code and the previous tabs
+
+```
+
+Créer et attendre un peu
